@@ -7,12 +7,14 @@ Add=()=>{
 
 
 Save=(out)=>{
+    
     Out = document.querySelector("#"+out);
     c = document.querySelectorAll(".input");
     b = document.querySelectorAll(".input1");
     a = {};
     for(var i=1; i<c.length;i++){a[c[i].value]=b[i].value}
     console.log(JSON.stringify(a))
+    delete a[""];
     Out.innerHTML=JSON.stringify(a);
 };
 
