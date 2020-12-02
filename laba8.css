@@ -3,7 +3,18 @@ html,body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+input{
+	border: 1px solid gray;
+}
+button{
+	border: 1px solid gray;
+}
 
 #Out{
     font-size: 13px;
+}
+
+
+#Save:hover{
+    border: #487bda 1px solid;
 }
